@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.f-left{
+  float: left;
+}
+.f-right{
+  float: right;
+}
+/* button style */
+.default-btn{
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  background: #27ae60;
+  padding: 18px 45px;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: all .3s;
+}
+.default-btn:hover{
+  color: #343434;
+  background: #ffffff;
+}
+/* header */
+.logo a{
+  font-size: 32px;
+  font-weight: 500;
+  color: #343434;
+  text-decoration: none;
+}
+.main-menu ul li{
+  display: inline-block;
+  margin-left: 50px;
+}
+.main-menu ul li a{
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 50px 0;
+  display: block;
+  text-decoration: none;
+}
+/* slider */
+.slider-height{
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+}
+.slider-text{
+  padding: 50px 0;
+  background: rgba(51, 51, 51, 0.6);
+}
+.slider-text h2{
+  color: #ffffff;
+  font-size: 65px;
+  font-weight: 700;
+}
+.slider-text p{
+  color: #ffffff;
+  font-size: 17px;
+  line-height: 1.5;
+  padding: 0 120px;
+  margin-bottom: 30px;
+}
+.slider-active .owl-nav button {
+	position: absolute;
+	top: 50%;
+	left: 25px;
+  transform: translateY(-50%);
+}
+.slider-active .owl-nav button.owl-next{
+  position: absolute;
+	top: 50%;
+	left: auto;
+  right: 25px;
+  transform: translateY(-50%);
+}
+.owl-nav button span {
+	width: 60px;
+	height: 60px;
+	background: #ffffff;
+	display: inline-block;
+	color: #343434;
+	font-size: 45px;
+	line-height: 55px;
+}
+
+/* owl dot */
+.slider-active .owl-dots {
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+.slider-active .owl-dots button span {
+	width: 20px;
+	height: 20px;
+	background: #ffffff;
+	display: inline-block;
+	margin: 0 10px;
+	border-radius: 50%;
+}
+.slider-active .owl-dots button.active span{
+  background: #e67e22;
+}
+/* footer */
+.copyright-text p{
+  margin-bottom: 0;
+}
